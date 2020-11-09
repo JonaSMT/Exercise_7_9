@@ -1,6 +1,6 @@
 using System;
 
-//Jonathan Aracil 1ºDAM Grupo 1
+//Jonathan Aracil 1ºDAM Group 1
 
 public class Average{
 	
