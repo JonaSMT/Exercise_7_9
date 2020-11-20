@@ -18,15 +18,13 @@ class digits
 				if (input / 10 == 0)
 					oneDigit++;
 				else 
-				
-				if (input / 100 == 0)
-					twoDigits++;
-				else
-				
-				if (input / 1000 == 0)
-					threeDigits++;  
-				else
-					fourOrMoreDigits++;  
+					if (input / 100 == 0)
+						twoDigits++;
+					else
+						if (input / 1000 == 0)
+							threeDigits++;  
+						else
+							fourOrMoreDigits++;  
 			}
 		mark = Console.ReadLine();
 		}
